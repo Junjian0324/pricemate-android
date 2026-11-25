@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>比价助手 · 下载</title>
+<style>
+  :root{--bg:#0e1116;--card:#161b23;--line:#252c37;--text:#e8ecf2;--dim:#8b94a3;--accent:#ffb020;--ok:#3ddc84}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:15px/1.65 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif;
+       display:flex;justify-content:center;padding:24px 16px 48px}
+  .wrap{width:100%;max-width:520px}
+  .head{display:flex;align-items:center;gap:14px;margin-bottom:26px}
+  .logo{width:56px;height:56px;border-radius:16px;background:#0b0e13;display:flex;align-items:center;
+        justify-content:center;font-size:30px;font-weight:800;color:var(--accent);flex:0 0 auto}
+  h1{margin:0;font-size:22px;letter-spacing:.3px}
+  .sub{color:var(--dim);font-size:13px;margin-top:2px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;margin-bottom:16px}
+  .ver{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .ver b{font-size:17px}
+  .ver span{color:var(--dim);font-size:12.5px}
+  .btn{display:block;text-align:center;text-decoration:none;margin-top:16px;padding:15px 20px;
+       border-radius:13px;background:var(--accent);color:#14181f;font-weight:700;font-size:16.5px}
+  .btn.ghost{background:#20262f;color:var(--text);font-size:14px;padding:12px;margin-top:10px;font-weight:600}
+  ol{padding-left:20px;margin:14px 0 0}
+  ol li{margin:9px 0;color:#cfd6e0}
+  ol li::marker{color:var(--accent);font-weight:700}
+  code{background:#0b0e13;padding:2px 7px;border-radius:6px;font-size:12.5px;color:#9fd6ff;
+       word-break:break-all;font-family:ui-monospace,Consolas,monospace}
+  .kv{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-size:12.5px;color:var(--dim);margin-top:14px}
+  .kv b{color:#aab3c0;font-weight:600;white-space:nowrap}
+  .warn{background:#ffb45414;border:1px solid #ffb45433;border-radius:12px;padding:12px 14px;
+        font-size:13px;color:#ffd08a;margin-top:16px}
+  .tip{color:var(--dim);font-size:12.5px;margin-top:10px}
+  h2{font-size:14px;color:var(--dim);font-weight:600;margin:0 0 4px;letter-spacing:.4px}
+
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header class="head">
+    <div class="logo" aria-hidden="true">¥</div>
+    <div>
+      <h1>比价助手</h1>
+      <div class="sub">安卓独立版 · 28 个比价渠道 · 端侧 AI</div>
+    </div>
+  </header>
+  <section class="card">
+    <div class="ver"><b>版本 1.1.0</b><span>469 MiB · Android 8.0+</span></div>
+    <a class="btn" href="https://github.com/Junjian0324/pricemate-android/releases/download/v1.1.0/pricemate-standalone-1.1.0.apk">下载安卓 APK</a>
+    <div class="kv">
+      <b>SHA-256</b><code>dea75dd66f395f593af48032e175122896f212fa45e23060e6676f4d33d7abfb</code>
+    </div>
+  </section>
+  <section class="card">
+    <h2>安装和使用</h2>
+    <ol>
+      <li>用安卓手机打开本页，下载并安装 APK。已安装独立版的用户可直接覆盖安装。</li>
+      <li>手机联网可查实时价格，电脑关机也能用。</li>
+      <li>Qwen 小模型随安装包提供。断网后可以恢复上次比价，继续分析已有报价。</li>
+    </ol>
+    <div class="tip">首次使用端侧 AI 需要额外约 469 MiB 存储空间。</div>
+  </section>
+</main>
+</body>
+</html>
